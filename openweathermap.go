@@ -34,16 +34,16 @@ var (
 // DataUnits represents the character chosen to represent the temperature notation
 var DataUnits = map[string]string{"C": "metric", "F": "imperial", "K": "internal"}
 var (
-	baseURL        = "https://api.openweathermap.org/data/2.5/weather?%s"
-	onecallURL     = "https://api.openweathermap.org/data/2.5/onecall?%s"
+	baseURL        = "https://api.openweathermap.org/data/3.0/weather?%s"
+	onecallURL     = "https://api.openweathermap.org/data/3.0/onecall?%s"
 	iconURL        = "https://openweathermap.org/img/w/%s"
-	groupURL       = "http://api.openweathermap.org/data/2.5/group?%s"
-	stationURL     = "https://api.openweathermap.org/data/2.5/station?id=%d"
-	forecast5Base  = "https://api.openweathermap.org/data/2.5/forecast?appid=%s&%s&mode=json&units=%s&lang=%s&cnt=%d"
-	forecast16Base = "https://api.openweathermap.org/data/2.5/forecast/daily?appid=%s&%s&mode=json&units=%s&lang=%s&cnt=%d"
-	historyURL     = "https://api.openweathermap.org/data/2.5/history/%s"
-	pollutionURL   = "https://api.openweathermap.org/data/2.5/air_pollution?appid=%s&lat=%s&lon=%s"
-	uvURL          = "https://api.openweathermap.org/data/2.5/"
+	groupURL       = "http://api.openweathermap.org/data/3.0/group?%s"
+	stationURL     = "https://api.openweathermap.org/data/3.0/station?id=%d"
+	forecast5Base  = "https://api.openweathermap.org/data/3.0/forecast?appid=%s&%s&mode=json&units=%s&lang=%s&cnt=%d"
+	forecast16Base = "https://api.openweathermap.org/data/3.0/forecast/daily?appid=%s&%s&mode=json&units=%s&lang=%s&cnt=%d"
+	historyURL     = "https://api.openweathermap.org/data/3.0/history/%s"
+	pollutionURL   = "https://api.openweathermap.org/data/3.0/air_pollution?appid=%s&lat=%s&lon=%s"
+	uvURL          = "https://api.openweathermap.org/data/3.0/"
 	dataPostURL    = "https://openweathermap.org/data/post"
 )
 
